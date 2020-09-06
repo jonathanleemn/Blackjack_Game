@@ -1,0 +1,27 @@
+-ArrayList<Card>
+	-shuffle
+	-deal
+		-removes card
+	-print deck
+	-draw card (hit)
+	-new deck
+	
+	Top Level Class: Main
+		Game class: where you create your players, deck, all the methods for the rules of blackjack
+			player 
+			if a player wants to grab a card from the deck, both have to exist in the game class
+				hand 	 
+			deck
+				52 cards
+				deals cards into hands
+				
+				
+	Ace = 11 unless you have more than 1 ace in your hand
+		all subsequent aces after the first one = 1
+		
+		A
+		A
+		A
+		5
+		aceCount = 2
+		value = 38 - 10*aceCount
